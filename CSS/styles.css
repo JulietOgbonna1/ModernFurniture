@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans';
+}
+header{
+    background-color: #465564;
+    height: 100vh;
+}
+header img{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 63vw;
+}
+.green{
+    color: #4CAF50;
+}
+li{
+    list-style: none;
+}
+nav{
+    padding: 4vh;
+}
+#furniture{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left: -2vw;
+}
+#home{
+    margin-left: 18vw;
+}
+nav ul{
+    display: flex;
+    gap: 4vw;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+}
+nav a:hover{
+    background-color: #4CAF50;
+}
+.topmost{
+    position: relative;
+    z-index: 1;
+    margin-left: 8vw;
+}
+#weare{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 6vh;
+    padding-bottom: 3vh;
+}
+.up{
+    position: relative;
+    top: -1.4vh;
+    margin-left: 1vw;
+}
+.h1modern{
+    font-size: 4.8rem;
+    color: white;
+    line-height: 4.5rem;
+}
+#wehelp{
+    font-size: 1.1rem;
+    padding-top: 4vh;
+    padding-bottom: 6vh;
+    color: #d6d3d3;
+    line-height: 1.5rem;
+    width: 27vw;
+    text-align: justify;
+}
+.but1{
+    outline: none;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 700;
+    padding: 2vh 4vw;
+}
+#secabout{
+    display: flex;
+    gap: 3vw;
+    margin-top: 10vh;
+    margin-left: 8vw;
+}
+.h2{
+    font-size: 2rem;
+}
+#psome{
+    padding-top: 3vh;
+    padding-bottom: 8vh;
+}
+.gbg{
+    background-color: #C8E6C9;
+    position: relative;
+    width: 44vw;
+    height: 79vh;
+    margin-left: 1vw;
+}
+.gbg img{
+    position: relative;
+    left: -3.5vw;
+    top: -6.5vh;
+}
+.artaboutflex{
+    display: flex;
+    gap: 2vw;
+}
+.artaboutflex img{
+    width: 210px;
+    height: 210px;
+    
+}
+.artaboutflex h4{
+    padding: 2vh 0;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+.artaboutflex p{
+    text-align: justify;
+    width: 19vw;
+    line-height: 3.2vh;
+}
+.artaboutflex a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 0.8rem;
+    
+}
+.abouta{
+    padding-top: 4.5vh;
+}
+.abouta1{
+    padding-top: 6vh;
+}
+.imgpadding{
+    padding-bottom: 2vh;
+}
+.bracket{
+    color: #4CAF50;
+    padding-left: 1vw;
+}
+.secproducts{
+    margin-top: 10vh;
+    margin-left: 8vw;
+}
+.h2flex{
+    display: flex;
+}
+.h2a{
+    text-decoration: none;
+    color: #465564;
+    font-size: 0.8rem;
+    font-weight: 700;
+    position: relative;
+    top: 2vh;
+    left: 60vw;
+}
