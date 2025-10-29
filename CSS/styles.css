@@ -31,6 +31,9 @@ nav{
     font-weight: 800;
     margin-left: -2vw;
 }
+#furniture:hover{
+    text-shadow: 0px 0px 2px white;
+}
 #home{
     margin-left: 18vw;
 }
@@ -163,5 +166,238 @@ nav a:hover{
     font-weight: 700;
     position: relative;
     top: 2vh;
-    left: 60vw;
+    left: 66vw;
 }
+.h2a:hover{
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem;
+}
+.secproducts ul{
+    display: flex;
+    gap: 2vw;
+    padding: 4vh 0;
+}
+.secproducts a{
+    text-decoration: none;
+    color: #465564;
+}
+.secproducts a:hover{
+    color: black;
+    font-weight: 800;
+}
+#all{
+    color: black;
+    font-weight: 800;
+}
+.artproducts{
+    margin-top: 4vh;
+    display: flex;
+    gap: 2vw;
+}
+.productcards{
+    background-color: #C8E6C9;
+    width: 20vw;
+    height: 65vh;
+}
+.productcards p{
+    color: #465564;
+    margin-top: 5vh;
+    margin-bottom: 1.7vh;
+    margin-left: 2.5vw;
+}
+.productcards h4{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 800;
+    margin-left: 2.5vw;
+}
+.productcards img{
+    margin-top: 7vh;
+    margin-left: 6vw;
+}
+.productcards button{
+    border: none;
+    background-color: #ffffff65;
+    color: #4CAF50;
+    padding: 0.7rem 1.1rem;
+    margin-left: 2.5vw;
+    margin-top: 1vh;
+    font-weight: 800;
+}
+.butbed{
+    position: relative;
+    top: -9vh;
+}
+.bed{
+    margin-left: -5vw;
+    margin-top: 2vh;
+}
+.iconsflex{
+    display: flex;
+}
+.picons{
+    position: relative;
+    margin-left: 4vw;
+}
+.secget{
+    margin-top: 12vh;
+    margin-left: 8vw;
+    display: flex;
+    gap: 3vw;
+}
+#phave{
+    padding: 3vh 0;
+    text-align: justify;
+    width: 39vw;
+}
+input{
+    background-color: #F6F6F6;
+    font-family: 'Work Sans';
+    outline: none;
+    border: 2px solid #4CAF50;
+    width: 19vw;
+    padding: 0.8rem;
+    margin-top: 2vh;
+    margin-right: 1.5vh;
+}
+.inputw{
+    width: 39vw;
+}
+#write{
+    height: 14vh;
+}
+form button{
+    margin-top: 4vh;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 700;
+    padding: 0.9rem 1.5rem;
+    
+}
+.gbg2{
+    background-color: #C8E6C9;
+    width: 41vw;
+    height: 63vh;
+    position: relative;
+    top: 4vh;
+}
+.gbg2 img{
+    width: 45vw;
+    height: 70vh;
+    position: relative;
+    top: -6vh;
+}
+.secwhat{
+    margin-top: 10vh;
+    margin-left: 8vw;
+    margin-bottom: 8vh;
+}
+.artwhat{
+    display: flex;
+    gap: 2.5vw;
+    margin-top: 6vh;
+}
+.revcards{
+    text-align: center;
+    align-items: center;
+}
+.revcards img{
+    position: relative;
+    top: -9vh;
+}
+.revsp{
+    background-color: #F6F6F6;
+     padding: 4vw 2.9vw;
+     line-height: 4.5vh;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #46556488;
+}
+#rev2{
+    background-color: #C8E6C9;
+}
+.revp1{
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+}
+.revp2{
+    font-weight: 900;
+    font-size: 1.1rem;
+    position: relative;
+    top: -8vh;
+}
+.brac{
+    color: #4CAF50;
+    font-weight: 700;
+    margin-top: 28vh;
+}
+footer{
+    background-color: #465564;
+    padding: 7vh 8vw;
+    color: white;
+}
+.fflex{
+    display: flex;
+    gap: 15.6vw;
+    line-height: 6vh;
+    padding-bottom: 4vh;
+    border-bottom: 1px solid #4CAF50;
+}
+.fflex p{
+    color: #ffffffd8;
+}
+footer input{
+    width: 20vw;
+    margin-right: -0.8vh;
+}
+footer button{
+    position: relative;
+    border: 1px solid #4CAF50;
+}
+footer ul{
+    display: flex;
+    gap: 2vw;
+    padding-top: 5vh;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffffd8;
+    font-weight: 800;
+}
+.nav{
+    padding: 1vh;
+}
+.nav:hover{
+    background-color: #4CAF50;
+}
+#furniture2{
+    font-size: 2.5rem;
+    color: #4CAF50;
+    font-weight: 800;
+    margin-right: 14vw;
+}
+#furniture2:hover{
+    text-shadow: 0px 0px 2px white;
+}
+#contact2{
+    margin-right: 13vw;
+}
+.ficons{
+    color: #4CAF50;
+    font-size: 1.5rem;
+}
+.ficons:hover{
+    color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h2:hover, h3:hover{
+    transform: translateY(-2vh);
+    transition: ease-in 0.5s;
+    scale: 1.1;
+}
+
