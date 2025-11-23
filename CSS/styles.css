@@ -525,6 +525,12 @@ h2:hover, h3:hover{
     footer button{
         width: 14vw;
     }
+    footer a{
+        font-size: 0.8rem;
+    }
+    footer ul{
+        gap: 1.5vw;
+    }
     .fflex{
         gap: 3vw;
     }
