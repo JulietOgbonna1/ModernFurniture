@@ -6,6 +6,9 @@
 body{
     font-family: 'Work Sans';
 }
+.header2{
+    display: none;
+}
 header{
     background-color: #465564;
     height: 100vh;
@@ -25,6 +28,12 @@ li{
 }
 nav{
     padding: 4vh;
+}
+.menu{
+    display: none;
+}
+.options{
+    display: none;
 }
 #furniture{
     font-size: 3rem;
@@ -199,6 +208,7 @@ nav a:hover{
     background-color: #C8E6C9;
     width: 20vw;
     height: 65vh;
+    padding-bottom: 5vh;
 }
 .productcards p{
     color: #465564;
@@ -223,6 +233,7 @@ nav a:hover{
     padding: 0.7rem 1.1rem;
     margin-left: 2.5vw;
     margin-top: 1vh;
+    margin-bottom: 5vh;
     font-weight: 800;
 }
 .butbed{
@@ -235,10 +246,19 @@ nav a:hover{
 }
 .iconsflex{
     display: flex;
+    gap: 3vw;
 }
-.picons{
+.bxs-cart{
+    background-color: #ffffff65;
+    padding: 1vh;
+    border-radius: 50%;
+}
+.uphi{
+    margin-left: -2vw;
+}
+.bx-plus{
     position: relative;
-    margin-left: 4vw;
+    left: -1vw;
 }
 .secget{
     margin-top: 12vh;
@@ -401,3 +421,136 @@ h2:hover, h3:hover{
     scale: 1.1;
 }
 
+@media(max-width: 768px){
+    html{
+        font-size: 14px;
+    }
+    .hide{
+        display: none;
+    }
+    .menu{
+    display: block;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    margin-left: 50vw;
+    }
+    .options{
+        display: none;
+        margin-left: 65vw;
+        background-color: #4CAF50;
+        padding: 2vh;
+    }
+    .options.active{
+        display: flex;
+        flex-direction: column;
+        transform: ease-in-out 0.3s;
+    }
+    #wehelp{
+        width: 25vw;
+        font-size: 1rem;
+    }  
+    .gbg img{
+        width: 45vw;
+        height: 90vh;
+        left: -6vw;
+        top: -8vh;
+    }
+    .gbg{
+        width: 40vw;
+        height: 80vh;
+    }
+     .artaboutflex{
+        width: 30vw;
+        margin-left: 1.5vw;
+    }
+    .artaboutflex img{
+        width: 22vw;
+        height: 31.5vh;
+    }
+    .artaboutflex p{
+        width: 20vw;
+        line-height: 14px;
+        font-size: 0.9rem;
+    }
+    .h2a{
+        left: 58vw;
+    }
+    .artproducts{
+        flex-wrap: wrap;
+    }
+    .productcards{
+        width: 42vw;
+        height: 75vh;
+    }
+    .bxs-cart{
+        margin-left: 8vw;
+    }
+    .bx-plus{
+        left: -2vw;
+    }
+    .uphi{
+        margin-left: 3vw;
+    }
+    .secget{
+        margin-left: 6vw;
+    }
+    .secwhat{
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .secwhat h2{
+        margin-left: 5vw;
+    }
+    .artwhat{
+     gap: 2vw;
+    }
+    .brac{
+        margin-top: 20vh;
+    }
+    .revcards{
+        width: 28vw;
+    }
+    .revsp{
+     
+        line-height: 3vh;
+       
+    }
+    footer{
+        padding: 7vh 3vw;
+    }
+    footer input{
+        width: 26vw;
+    }
+    footer button{
+        width: 14vw;
+    }
+    .fflex{
+        gap: 3vw;
+    }
+    .fflex h3{
+        font-size: 1.5rem;
+    }
+    .fflex p{
+        font-size: 0.8rem;
+    }
+    #furniture2{
+        font-size: 2rem;
+        margin-right: 5vw;
+    }
+    #contact2{
+        margin-right: 8vw;
+    }
+
+
+}
+
+@media(max-width:450px){
+    .header1{
+        display: none;
+    }
+    .header2{
+        display: block;
+    }
+
+}

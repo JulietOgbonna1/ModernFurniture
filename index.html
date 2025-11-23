@@ -9,12 +9,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header1">
         <div class="topmost">
         <nav>
             <ul>
                 <li class="green" id="furniture">FURNITURE</li>
-                <li id="home"><a href="">Home</a></li>
+                <li id="home" class="hide"><a href="">Home</a></li>
+                <li class="hide"><a href="#secabout">About Us</a></li>
+                <li class="hide"><a href="">Products</a></li>
+                <li class="hide"><a href="">Contact Us</a></li>
+                <li class="menu" onclick="toggleMenu()">☰</li>
+            </ul>
+            <ul class="options">
+                <li><a href="">Home</a></li>
                 <li><a href="#secabout">About Us</a></li>
                 <li><a href="">Products</a></li>
                 <li><a href="">Contact Us</a></li>
@@ -30,9 +37,32 @@
             <img src="./Images/Group Pic.png" alt="Hero Image">
         </div>
     </header>
+    <div class="header2">
+        <div class="firstimg">
+            <img src="./Images/Group Pic.png" alt="Hero Image">
+        </div>
+        <div class="hero">
+            <ul>
+                <li class="green" id="furniture">FURNITURE</li>
+                <li class="menu" onclick="toggleMenu()">☰</li>
+            </ul>
+            <ul class="options">
+                <li id="home"><a href="">Home</a></li>
+                <li><a href="#secabout">About Us</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <div>
+                <p id="weare">WE ARE <span class="up">__________________</span></p>
+            <h1 class="h1modern"><span class="green">Modern</span> Furniture <br>Center</h1>
+            <p id="wehelp">We help you to create organize your room to be more cozy, design by professional interior designer</p>
+            <button class="but1">See Our Product</button>
+            </div>
+        </div>
+    </div>
     <main>
         <section id="secabout">
-            <div>
+            <div class="aboutcard1">
                 <h2 class="h2">All <span class="green">About</span> Us</h2>
                 <p id="psome">Some of the interiors that we provide for you</p>
                 <div class="gbg">
@@ -108,7 +138,7 @@
                 <p>Sofa</p>
                 <div class="iconsflex">
                     <h4>Upholstery Sotka</h4>
-                    <div><i class='bx bxs-cart'></i> <i class='bx bx-plus'></i></div>
+                    <div><i class='bx bxs-cart uphi'></i> <i class='bx bx-plus'></i></div>
                 </div>
                 <div class="bed"><img src="./Images/unnamed (5) 1 (2).png" alt="Sofa"></div>
                 <button class="butbed">Rp 700,000</button>
@@ -117,7 +147,7 @@
                 <p>Bed</p>
                 <div class="iconsflex">
                     <h4>Headboard</h4>
-                    <div class="picons"><i class='bx bxs-cart'></i> <i class='bx bx-plus'></i></div>
+                    <div><i class='bx bxs-cart'></i> <i class='bx bx-plus'></i></div>
                 </div>
                 <div class="bed"><img src="./Images/unnamed (5) 1 (3).png" alt="Bed"></div>
                 <button class="butbed">Rp 900,000</button>
@@ -199,5 +229,6 @@
             </ul>
     </footer>
     
+    <script src="./index.js"></script>
 </body>
 </html>
