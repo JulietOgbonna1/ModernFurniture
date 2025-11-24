@@ -117,6 +117,9 @@ nav a:hover{
     height: 79vh;
     margin-left: 1vw;
 }
+.secabout2{
+    display: none;
+}
 .gbg img{
     position: relative;
     left: -3.5vw;
@@ -552,11 +555,194 @@ h2:hover, h3:hover{
 }
 
 @media(max-width:450px){
+    html{
+        font-size: 12px;
+    }
     .header1{
         display: none;
     }
     .header2{
         display: block;
+        height: 80vh;
     }
+    .firstul{
+        display: flex;
+        align-items: center;
+        padding: 3vh;
+        border-bottom: 2px solid #4CAF50;
+    }
+    .menu2{
+        color: white;
+        font-size: 2rem;
+        margin-left: 57vw;
+    }
+    .options2{
+        display: none;
+    }
+    .options2 a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .options2 li{
+         padding: 2vh;
+    }
+    .options2.active{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero{
+        background-image: url(../Images/Group\ Pic.png);
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+    }
+    #furniturem{
+        font-size: 2rem;
+        color: white;
+        font-weight: 800;
+    }
+    .secone{
+        background-color: #465564;
+        padding-left: 5vw;
+    }
+    #wearem{
+        color: white;
+        font-size: 1.2rem;
+        padding-top: 6vh;
+        padding-bottom: 3vh;
+    }
+    .h1modernm{
+        font-size: 3.3rem;
+        color: white;
+        line-height: 3.5rem;
+        padding-bottom: 3vh;
+    }
+    #wehelpm{
+    font-size: 1.3rem;
+    padding-bottom: 4vh;
+    color: white;
+    line-height: 2.2rem;
+    width: 70vw;
+    
+}
+    #butprom{
+        margin-bottom: 7vh;
+    }
+    .secabout1{
+        display: none;
+    }
+    .secabout2{
+        display: block;
+         margin-top: 10vh;
+    margin-left: 8vw;
+    }
+    .aboutcard1{
+        margin-top: 45vh;
+    }
+    .aboutcard1 img{
+        width: 90vw;
+    }
+    .gbg{
+        width: 85vw;
+    }
+    .artaboutflex{
+        margin-top: 5vh;
+    }
+    .artaboutflex img{
+        width: 50vw;
+    }
+    .artaboutflex p{
+        width: 32vw;
+        font-size: 1rem;
+        line-height: 15px;
+    }
+    .artaboutflex a{
+        font-size: 1rem;
+    }
+    .h2flex h2{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    .secproducts a{
+        font-size: 1.2rem;
+    }
+    .secproducts ul{
+        gap: 6vw;
+    }
+    .h2a{
+        left: 20vw;
+    }
+    .artproducts{
+        flex-direction: column;
+    }
+    .productcards{
+        width: 85vw;
+       
+    }
+    .bxs-cart{
+        margin-left: 38vw;
+    }
+    .secget{
+        display: block;
+    }
+    .secget h2{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    #phave{
+        width: 80vw;
+    }
+    .secget input{
+        width: 85vw;
+    }
+    .gbg2{
+        width: 83vw;
+        height:63vh;
+        margin-top: 5vh;
+    }
+    .gbg2 img{
+        width: 92vw;
+        height: 70vh;
+    }
+    .artwhat{
+        flex-direction: column;
+        gap: 0;
+    }
+    .brac{
+        display: none;
+    }
+    .revcards{
+        width: 80vw;
+        margin-left: 5vw;
+    }
+    .revsp{
+        padding-bottom: 6vh;
+    }
+    .fflex{
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .fflex p{
+        font-size: 1.2rem;
+        width: 80vw;
+    }
+    .fhide{
+        display: none;
+    }
+    #furniture2{
+        margin-right: 40vw;
+    }
+    footer input{
+        width: 45vw;
+    }
+    footer button{
+        width: 25vw;
+    }
+    .ficons{
+        font-size: 2rem;
+    }
+    
 
 }
