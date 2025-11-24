@@ -746,3 +746,30 @@ h2:hover, h3:hover{
     
 
 }
+
+@media(max-width:370px){
+    .menu2{
+        margin-left: 45vw;
+    }
+    .h1modernm{
+        font-size: 2.8rem;
+    }
+    #wehelpm{
+        font-size: 1rem;
+    }
+    .h2flex h2{
+        font-size: 2rem;
+    }
+    .artaboutflex p{
+        font-size: 0.9rem;
+    }
+    .uphol{
+        margin-right: -10vw;
+    }
+    #furniture2{
+        margin-right: 30vw;
+    }
+    footer input{
+        width: 55vw;
+    }
+}
